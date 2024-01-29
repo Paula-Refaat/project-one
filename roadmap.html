@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="preload"
+      href="/_next/static/media/3d9ea938b6afa941-s.p.woff2"
+      as="font"
+      crossorigin=""
+      type="font/woff2"
+    />
+    <link
+      rel="preload"
+      as="image"
+      imagesrcset="/_next/image?url=%2Fimages%2Flayout%2Fheader_logo.webp&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Flayout%2Fheader_logo.webp&amp;w=640&amp;q=75 2x"
+      fetchPriority="high"
+    />
+    <link
+      rel="preload"
+      as="image"
+      imagesrcset="/_next/image?url=%2Fimages%2Flayout%2Fheader_small_logo.webp&amp;w=64&amp;q=75 1x, /_next/image?url=%2Fimages%2Flayout%2Fheader_small_logo.webp&amp;w=128&amp;q=75 2x"
+      fetchPriority="high"
+    />
+    <link rel="stylesheet" href="index.css" data-precedence="next" />
+    <!-- <link rel="stylesheet" href="two.css" data-precedence="next" />
+    <link rel="stylesheet" href="three.css" data-precedence="next" />
+    <link rel="stylesheet" href="four.css" data-precedence="next" /> -->
+    <link
+      rel="preload"
+      href="js/roadmap.js"
+      as="script"
+      fetchPriority="low"
+      crossorigin=""
+    />
+    <script src="js/roadmap.js" async="" crossorigin=""></script>
+    <script src="js/roadmap.js" async="" crossorigin=""></script>
+    <script src="js/roadmap.js" async="" crossorigin=""></script>
+    <link rel="preload" href="https://widget.mava.app/" as="script" />
+    <title>Etherfi</title>
+    <meta name="description" content="Delegated Staking Protocol" />
+    <meta name="robots" content="follow, index" />
+    <meta property="og:title" content="ether.fi" />
+    <meta property="og:description" content="Delegated Staking Protocol" />
+    <meta
+      property="og:image"
+      content="https://gadzefinance.github.io/Image-Hosting/Etherfi-Logo-Opengraph.png"
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@ether_fi" />
+    <meta name="twitter:title" content="ether.fi" />
+    <meta name="twitter:description" content="Delegated Staking Protocol" />
+    <meta
+      name="twitter:image"
+      content="https://gadzefinance.github.io/Image-Hosting/Etherfi-Logo-Opengraph.png"
+    />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16" />
+    <meta name="next-size-adjust" />
+    <script src="js/roadmap.js" crossorigin="" nomodule=""></script>
+  </head>
+  <body
+    class="__className_be21a3 bg-purple-gradient-1 relative min-h-[100dvh] text-white"
+  >
+    <script>
+      !(function () {
+        try {
+          var d = document.documentElement,
+            c = d.classList;
+          c.remove("light", "dark");
+          var e = localStorage.getItem("theme");
+          if ("system" === e || (!e && true)) {
+            var t = "(prefers-color-scheme: dark)",
+              m = window.matchMedia(t);
+            if (m.media !== t || m.matches) {
+              d.style.colorScheme = "dark";
+              c.add("dark");
+            } else {
+              d.style.colorScheme = "light";
+              c.add("light");
+            }
+          } else if (e) {
+            c.add(e || "");
+          }
+          if (e === "light" || e === "dark") d.style.colorScheme = e;
+        } catch (e) {}
+      })();
+    </script>
+    <nav class="rleative container flex items-center justify-between py-5">
+      <ul class="relative">
+        <li>
+          <a aria-label="Home" href="/"
+            ><img
+              alt="etherfi logo with text big"
+              fetchPriority="high"
+              width="200"
+              height="100"
+              decoding="async"
+              data-nimg="1"
+              class="relative hidden object-contain lg:inline-block"
+              style="color: transparent"
+              srcset="images/header_logo.webp, images/header_logo.webp"
+              src="images/header_logo.webp" />
+            <img
+              alt="etherfi logo with text small"
+              fetchPriority="high"
+              width="50"
+              height="50"
+              decoding="async"
+              data-nimg="1"
+              class="relative inline-block object-contain lg:hidden"
+              style="color: transparent"
+              srcset="
+                /_next/image?url=%2Fimages%2Flayout%2Fheader_small_logo.webp&amp;w=64&amp;q=75  1x,
+                /_next/image?url=%2Fimages%2Flayout%2Fheader_small_logo.webp&amp;w=128&amp;q=75 2x
+              "
+              src="images/header_small_logo.webp"
+          /></a>
+        </li>
+      </ul>
+      <div
+        class="relative hidden w-full items-center justify-center gap-5 whitespace-nowrap p-4 lg:flex"
+      >
+        <ul
+          class="flex items-center justify-center gap-5 whitespace-nowrap text-lg font-light text-white"
+        >
+          <li><a href="solo-staker.html">Solo Staker</a></li>
+          <li><a href="institutional.html">Institutional</a></li>
+          <li><a href="roadmap.html">Roadmap</a></li>
+        </ul>
+        <div class="group relative">
+          <div class="flex cursor-pointer" aria-hidden="true">
+            More
+            <img
+              alt="arrow-down"
+              loading="lazy"
+              width="20"
+              height="20"
+              decoding="async"
+              data-nimg="1"
+              class="shrink-0 max-sm:-ml-2 max-sm:mr-2.5"
+              style="color: transparent"
+              src="images/arrow-down.374ffeb1.svg"
+            />
+          </div>
+          <div
+            class="absolute left-0 z-10 hidden w-48 p-2 pt-4 opacity-0 transition-opacity duration-200 ease-in-out group-hover:block group-hover:opacity-100"
+          >
+            <ul
+              class="rounded-md border border-[#474276] bg-[#2C1161] shadow-lg"
+            >
+              <li>
+                <a class="hover:bg-gray-200 block px-4 py-2" href="partner.html"
+                  >Partners</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  class="hover:bg-gray-200 block px-4 py-2"
+                  href="https://etherfi.gitbook.io/etherfi"
+                  >Docs</a
+                >
+              </li>
+              <li>
+                <a class="hover:bg-gray-200 block px-4 py-2" href="about.html"
+                  >About</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="flex gap-2">
+        <ul class="hidden lg:inline-block">
+          <li>
+            <a
+              class="whitespace-nowrap rounded-lg border-none bg-gradient-to-r from-[#29BCFA] via-[#6464E4] to-[#B45AFA] bg-[length:200%_100%] bg-[50%_50%] px-[4rem] py-[1rem] text-center text-14 text-white hover:bg-[100%_50%] disabled:cursor-not-allowed disabled:opacity-50"
+              href="https://app.ether.fi"
+              >Stake</a
+            >
+          </li>
+        </ul>
+        <button
+          aria-label="open mobile nav menu"
+          class="inline-block lg:hidden"
+          name="mobile-nav-menu"
+        >
+          <svg
+            style="height: 30px"
+            viewBox="0 0 24 24"
+            focusable="false"
+            aria-hidden="true"
+          >
+            <path
+              fill="white"
+              d="M 3 5 A 1.0001 1.0001 0 1 0 3 7 L 21 7 A 1.0001 1.0001 0 1 0 21 5 L 3 5 z M 3 11 A 1.0001 1.0001 0 1 0 3 13 L 21 13 A 1.0001 1.0001 0 1 0 21 11 L 3 11 z M 3 17 A 1.0001 1.0001 0 1 0 3 19 L 21 19 A 1.0001 1.0001 0 1 0 21 17 L 3 17 z"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+    <main>
+      <div class="bdgk3p9" style="gap: 150px; padding: 30px">
+        <section class="pt-[100px]">
+          <div class="flex flex-col items-center justify-center gap-5">
+            <h1
+              class="text-center text-16 font-normal text-white xs:text-24 xs:leading-7 lg:text-[38px] lg:leading-[44px] xl:text-[48px] xl:leading-[54px]"
+            >
+              Our <span class="font-medium text-text-4">Roadmap</span>
+            </h1>
+            <div
+              class="max-w-[570px] text-center text-16 font-light text-text-3"
+            >
+              We built ether.fi as a product for ourselves: a way to safely and
+              securely stake our own ETH while retaining control of our keys. We
+              recognized a need for a staking protocol built from first
+              principles with a focus on decentralization and self-custody.
+            </div>
+          </div>
+        </section>
+        <section>
+          <div>
+            <section>
+              <div
+                class="flex w-[80vw] max-w-[950px] flex-col items-center justify-center gap-[10px] md:w-full"
+              >
+                <div
+                  class="flex w-full items-center justify-start md:justify-center"
+                >
+                  <span
+                    class="invisible hidden text-24 font-normal text-text-2 md:block md:text-28 pr-4 text-right"
+                    >Delegated staking with self-custody of keys</span
+                  ><img
+                    alt="diamond"
+                    loading="lazy"
+                    width="36"
+                    height="36"
+                    decoding="async"
+                    data-nimg="1"
+                    class="shrink-0 max-sm:-ml-1.5 max-sm:mr-2.5"
+                    style="color: transparent"
+                    src="images/diamond.80028cce.svg"
+                  /><span
+                    class="visible block text-24 font-normal text-text-2 md:pl-4 md:text-28 text-left align-middle"
+                    >Delegated staking with self-custody of keys</span
+                  >
+                </div>
+                <div class="flex pb-2.5">
+                  <span
+                    class="invisible hidden text-24 font-normal text-text-2 md:block md:text-28 md:leading-10 pr-4"
+                    ><div
+                      class="max-w-[900px] pb-2.5 text-right text-14 font-light text-text-3"
+                    >
+                      ether.fi’s decentralized application provides a secure
+                      path to staking personal ETH in 32 validator increments
+                      with a set of secure and proven node operators.
+                    </div>
+                    <div
+                      class="max-w-[900px] text-right text-14 font-light text-text-5"
+                    >
+                      Completed - June 2023
+                    </div></span
+                  ><img
+                    alt="diamond"
+                    loading="lazy"
+                    width="6"
+                    height="140"
+                    decoding="async"
+                    data-nimg="1"
+                    class="visible min-h-[140px] max-sm:ml-1"
+                    style="color: transparent"
+                    src="images/vertical-line.95498f93.svg"
+                  /><span
+                    class="visible block pl-4 text-24 font-normal text-text-2 md:text-28 md:leading-10"
+                    ><div
+                      class="max-w-[900px] pb-2.5 text-14 font-light text-text-3"
+                    >
+                      ether.fi’s decentralized application provides a secure
+                      path to staking personal ETH in 32 validator increments
+                      with a set of secure and proven node operators.
+                    </div>
+                    <div class="max-w-[900px] text-14 font-light text-text-5">
+                      Completed - June 2023
+                    </div></span
+                  >
+                </div>
+              </div>
+            </section>
+            <section>
+              <div
+                class="flex w-[80vw] max-w-[950px] flex-col items-center justify-center gap-[10px] md:w-full"
+              >
+                <div
+                  class="flex w-full items-center justify-start md:justify-center"
+                >
+                  <span
+                    class="visible hidden text-24 font-normal text-text-2 md:block md:text-28 pr-4 text-right"
+                    >Solo node operators integration phase 1</span
+                  ><img
+                    alt="diamond"
+                    loading="lazy"
+                    width="36"
+                    height="36"
+                    decoding="async"
+                    data-nimg="1"
+                    class="shrink-0 max-sm:-ml-1.5 max-sm:mr-2.5"
+                    style="color: transparent"
+                    src="images/diamond.80028cce.svg"
+                  /><span
+                    class="visible block text-24 font-normal text-text-2 md:invisible md:pl-4 md:text-28 text-left align-middle"
+                    >Solo node operators integration phase 1</span
+                  >
+                </div>
+                <div class="flex pb-2.5">
+                  <span
+                    class="visible hidden text-24 font-normal text-text-2 md:block md:text-28 md:leading-10 pr-4"
+                    ><div
+                      class="max-w-[900px] pb-2.5 text-right text-14 font-light text-text-3"
+                    >
+                      ether.fi in conjunction with Obol Labs spun up the first
+                      DVT mainnet validator, then leveraged this into mainnet’s
+                      first cohort of validators run by a geographically
+                      dispersed group of small, independent operators.
+                    </div>
+                    <div
+                      class="max-w-[900px] text-right text-14 font-light text-text-5"
+                    >
+                      Completed - August 2023
+                    </div></span
+                  ><img
+                    alt="diamond"
+                    loading="lazy"
+                    width="6"
+                    height="140"
+                    decoding="async"
+                    data-nimg="1"
+                    class="visible min-h-[140px] max-sm:ml-1"
+                    style="color: transparent"
+                    src="images//vertical-line.95498f93.svg"
+                  /><span
+                    class="visible block pl-4 text-24 font-normal text-text-2 md:invisible md:text-28 md:leading-10"
+                    ><div
+                      class="max-w-[900px] pb-2.5 text-14 font-light text-text-3"
+                    >
+                      ether.fi in conjunction with Obol Labs spun up the first
+                      DVT mainnet validator, then leveraged this into mainnet’s
+                      first cohort of validators run by a geographically
+                      dispersed group of small, independent operators.
+                    </div>
+                    <div class="max-w-[900px] text-14 font-light text-text-5">
+                      Completed - August 2023
+                    </div></span
+                  >
+                </div>
+              </div>
+            </section>
+            <section>
+              <div
+                class="flex w-[80vw] max-w-[950px] flex-col items-center justify-center gap-[10px] md:w-full"
+              >
+                <div
+                  class="flex w-full items-center justify-start md:justify-center"
+                >
+                  <span
+                    class="invisible hidden text-24 font-normal text-text-2 md:block md:text-28 pr-4 text-right"
+                    >DVT integration phase 1</span
+                  ><img
+                    alt="diamond"
+                    loading="lazy"
+                    width="36"
+                    height="36"
+                    decoding="async"
+                    data-nimg="1"
+                    class="shrink-0 max-sm:-ml-1.5 max-sm:mr-2.5"
+                    style="color: transparent"
+                    src="images/diamond.80028cce.svg"
+                  /><span
+                    class="visible block text-24 font-normal text-text-2 md:pl-4 md:text-28 text-left align-middle"
+                    >DVT integration phase 1</span
+                  >
+                </div>
+                <div class="flex pb-2.5">
+                  <span
+                    class="invisible hidden text-24 font-normal text-text-2 md:block md:text-28 md:leading-10 pr-4"
+                    ><div
+                      class="max-w-[900px] pb-2.5 text-right text-14 font-light text-text-3"
+                    >
+                      The above proof of concept has been partially automated
+                      with eyes on full automation in Phase 2 below.
+                    </div>
+                    <div
+                      class="max-w-[900px] text-right text-14 font-light text-text-5"
+                    >
+                      Completed - August 2023
+                    </div></span
+                  ><img
+                    alt="diamond"
+                    loading="lazy"
+                    width="6"
+                    height="140"
+                    decoding="async"
+                    data-nimg="1"
+                    class="visible min-h-[140px] max-sm:ml-1"
+                    style="color: transparent"
+                    src="images/vertical-line.95498f93.svg"
+                  /><span
+                    class="visible block pl-4 text-24 font-normal text-text-2 md:text-28 md:leading-10"
+                    ><div
+                      class="max-w-[900px] pb-2.5 text-14 font-light text-text-3"
+                    >
+                      The above proof of concept has been partially automated
+                      with eyes on full automation in Phase 2 below.
+                    </div>
+                    <div class="max-w-[900px] text-14 font-light text-text-5">
+                      Completed - August 2023
+                    </div></span
+                  >
+                </div>
+              </div>
+            </section>
+            <section>
+              <div
+                class="flex w-[80vw] max-w-[950px] flex-col items-center justify-center gap-[10px] md:w-full"
+              >
+                <div
+                  class="flex w-full items-center justify-start md:justify-center"
+                >
+                  <span
+                    class="visible hidden text-24 font-normal text-text-2 md:block md:text-28 pr-4 text-right"
+                    >Open source smart contracts</span
+                  ><img
+                    alt="diamond"
+                    loading="lazy"
+                    width="36"
+                    height="36"
+                    decoding="async"
+                    data-nimg="1"
+                    class="shrink-0 max-sm:-ml-1.5 max-sm:mr-2.5"
+                    style="color: transparent"
+                    src="images/diamond.80028cce.svg"
+                  /><span
+                    class="visible block text-24 font-normal text-text-2 md:invisible md:pl-4 md:text-28 text-left align-middle"
+                    >Open source smart contracts</span
+                  >
+                </div>
+                <div class="flex pb-2.5">
+                  <span
+                    class="visible hidden text-24 font-normal text-text-2 md:block md:text-28 md:leading-10 pr-4"
+                    ><div
+                      class="max-w-[900px] pb-2.5 text-right text-14 font-light text-text-3"
+                    >
+                      As a further commitment to our belief in the Ethereum
+                      ecosystem, we’ve officially open sourced our suite of
+                      smart contracts. We believe this will improve trust,
+                      quality, reliability, and security in our protocol.
+                    </div>
+                    <div
+                      class="max-w-[900px] text-right text-14 font-light text-text-5"
+                    >
+                      Completed - October 2023
+                    </div></span
+                  ><img
+                    alt="diamond"
+                    loading="lazy"
+                    width="6"
+                    height="140"
+                    decoding="async"
+                    data-nimg="1"
+                    class="visible min-h-[140px] max-sm:ml-1"
+                    style="color: transparent"
+                    src="images/vertical-line.95498f93.svg"
+                  /><span
+                    class="visible block pl-4 text-24 font-normal text-text-2 md:invisible md:text-28 md:leading-10"
+                    ><div
+                      class="max-w-[900px] pb-2.5 text-14 font-light text-text-3"
+                    >
+                      As a further commitment to our belief in the Ethereum
+                      ecosystem, we’ve officially open sourced our suite of
+                      smart contracts. We believe this will improve trust,
+                      quality, reliability, and security in our protocol.
+                    </div>
+                    <div class="max-w-[900px] text-14 font-light text-text-5">
+                      Completed - October 2023
+                    </div></span
+                  >
+                </div>
+              </div>
+            </section>
+            <section>
+              <div
+                class="flex w-[80vw] max-w-[950px] flex-col items-center justify-center gap-[10px] md:w-full"
+              >
+                <div
+                  class="flex w-full items-center justify-start md:justify-center"
+                >
+                  <span
+                    class="invisible hidden text-24 font-normal text-text-2 md:block md:text-28 pr-4 text-right"
+                    >eETH launch with permissionless minting and
+                    redemptions</span
+                  ><img
+                    alt="diamond"
+                    loading="lazy"
+                    width="36"
+                    height="36"
+                    decoding="async"
+                    data-nimg="1"
+                    class="shrink-0 max-sm:-ml-1.5 max-sm:mr-2.5"
+                    style="color: transparent"
+                    src="images/diamond.80028cce.svg"
+                  /><span
+                    class="visible block text-24 font-normal text-text-2 md:pl-4 md:text-28 text-left align-middle"
+                    >eETH launch with permissionless minting and
+                    redemptions</span
+                  >
+                </div>
+                <div class="flex pb-2.5">
+                  <span
+                    class="invisible hidden text-24 font-normal text-text-2 md:block md:text-28 md:leading-10 pr-4"
+                    ><div
+                      class="max-w-[900px] pb-2.5 text-right text-14 font-light text-text-3"
+                    >
+                      eETH is ether.fi’s Liquid Staking Token launching within a
+                      month. With it, users will be able to participate in
+                      Ethereum staking in a fully permissionless manner, buying
+                      and selling staked assets on demand.
+                    </div>
+                    <div
+                      class="max-w-[900px] text-right text-14 font-light text-text-5"
+                    >
+                      Completed - November 2023
+                    </div></span
+                  ><img
+                    alt="diamond"
+                    loading="lazy"
+                    width="6"
+                    height="140"
+                    decoding="async"
+                    data-nimg="1"
+                    class="visible min-h-[140px] max-sm:ml-1"
+                    style="color: transparent"
+                    src="images/vertical-line.95498f93.svg"
+                  /><span
+                    class="visible block pl-4 text-24 font-normal text-text-2 md:text-28 md:leading-10"
+                    ><div
+                      class="max-w-[900px] pb-2.5 text-14 font-light text-text-3"
+                    >
+                      eETH is ether.fi’s Liquid Staking Token launching within a
+                      month. With it, users will be able to participate in
+                      Ethereum staking in a fully permissionless manner, buying
+                      and selling staked assets on demand.
+                    </div>
+                    <div class="max-w-[900px] text-14 font-light text-text-5">
+                      Completed - November 2023
+                    </div></span
+                  >
+                </div>
+              </div>
+            </section>
+            <section>
+              <div
+                class="flex w-[80vw] max-w-[950px] flex-col items-center justify-center gap-[10px] md:w-full"
+              >
+                <div
+                  class="flex w-full items-center justify-start md:justify-center"
+                >
+                  <span
+                    class="visible hidden text-24 font-normal text-text-2 md:block md:text-28 pr-4 text-right"
+                    >Open source everything</span
+                  ><img
+                    alt="diamond"
+                    loading="lazy"
+                    width="36"
+                    height="36"
+                    decoding="async"
+                    data-nimg="1"
+                    class="shrink-0 max-sm:-ml-1.5 max-sm:mr-2.5"
+                    style="color: transparent"
+                    src="images/diamond.80028cce.svg"
+                  /><span
+                    class="visible block text-24 font-normal text-text-2 md:invisible md:pl-4 md:text-28 text-left align-middle"
+                    >Open source everything</span
+                  >
+                </div>
+                <div class="flex pb-2.5">
+                  <span
+                    class="visible hidden text-24 font-normal text-text-2 md:block md:text-28 md:leading-10 pr-4"
+                    ><div
+                      class="max-w-[900px] pb-2.5 text-right text-14 font-light text-text-3"
+                    >
+                      As a further demonstration of our belief in the power of
+                      free and open, we’ll continue making our software services
+                      and code public. We hope to drive others in the ecosystem
+                      to do the same.
+                    </div>
+                    <div
+                      class="max-w-[900px] text-right text-14 font-light text-text-5"
+                    >
+                      ETA Feb 2024
+                    </div></span
+                  ><img
+                    alt="diamond"
+                    loading="lazy"
+                    width="6"
+                    height="140"
+                    decoding="async"
+                    data-nimg="1"
+                    class="visible min-h-[140px] max-sm:ml-1"
+                    style="color: transparent"
+                    src="images/vertical-line.95498f93.svg"
+                  /><span
+                    class="visible block pl-4 text-24 font-normal text-text-2 md:invisible md:text-28 md:leading-10"
+                    ><div
+                      class="max-w-[900px] pb-2.5 text-14 font-light text-text-3"
+                    >
+                      As a further demonstration of our belief in the power of
+                      free and open, we’ll continue making our software services
+                      and code public. We hope to drive others in the ecosystem
+                      to do the same.
+                    </div>
+                    <div class="max-w-[900px] text-14 font-light text-text-5">
+                      ETA Feb 2024
+                    </div></span
+                  >
+                </div>
+              </div>
+            </section>
+            <section>
+              <div
+                class="flex w-[80vw] max-w-[950px] flex-col items-center justify-center gap-[10px] md:w-full"
+              >
+                <div
+                  class="flex w-full items-center justify-start md:justify-center"
+                >
+                  <span
+                    class="invisible hidden text-24 font-normal text-text-2 md:block md:text-28 pr-4 text-right"
+                    >DVT integration phase 2, permissionless solo staking</span
+                  ><img
+                    alt="diamond"
+                    loading="lazy"
+                    width="36"
+                    height="36"
+                    decoding="async"
+                    data-nimg="1"
+                    class="shrink-0 max-sm:-ml-1.5 max-sm:mr-2.5"
+                    style="color: transparent"
+                    src="images/diamond.80028cce.svg"
+                  /><span
+                    class="visible block text-24 font-normal text-text-2 md:pl-4 md:text-28 text-left align-middle"
+                    >DVT integration phase 2, permissionless solo staking</span
+                  >
+                </div>
+                <div class="flex pb-2.5">
+                  <span
+                    class="invisible hidden text-24 font-normal text-text-2 md:block md:text-28 md:leading-10 pr-4"
+                    ><div
+                      class="max-w-[900px] pb-2.5 text-right text-14 font-light text-text-3"
+                    >
+                      In DVT Phase 1 and working with our partners at Obol Labs,
+                      we delivered secure mainnet DVT - validation shared by
+                      disparate individuals, none of whom held entire validator
+                      keys. This second phase will move toward a fully automated
+                      integration. Users will arrive, apply, and begin acting as
+                      solo stakers free and clear of ether.fi and Obol’s
+                      management and assistance.
+                    </div>
+                    <div
+                      class="max-w-[900px] text-right text-14 font-light text-text-5"
+                    >
+                      ETA April 2024
+                    </div></span
+                  ><img
+                    alt="diamond"
+                    loading="lazy"
+                    width="6"
+                    height="140"
+                    decoding="async"
+                    data-nimg="1"
+                    class="visible min-h-[140px] max-sm:ml-1"
+                    style="color: transparent"
+                    src="images/vertical-line.95498f93.svg"
+                  /><span
+                    class="visible block pl-4 text-24 font-normal text-text-2 md:text-28 md:leading-10"
+                    ><div
+                      class="max-w-[900px] pb-2.5 text-14 font-light text-text-3"
+                    >
+                      In DVT Phase 1 and working with our partners at Obol Labs,
+                      we delivered secure mainnet DVT - validation shared by
+                      disparate individuals, none of whom held entire validator
+                      keys. This second phase will move toward a fully automated
+                      integration. Users will arrive, apply, and begin acting as
+                      solo stakers free and clear of ether.fi and Obol’s
+                      management and assistance.
+                    </div>
+                    <div class="max-w-[900px] text-14 font-light text-text-5">
+                      ETA April 2024
+                    </div></span
+                  >
+                </div>
+              </div>
+            </section>
+            <section>
+              <div
+                class="flex w-[80vw] max-w-[950px] flex-col items-center justify-center gap-[10px] md:w-full"
+              >
+                <div
+                  class="flex w-full items-center justify-start md:justify-center"
+                >
+                  <span
+                    class="visible hidden text-24 font-normal text-text-2 md:block md:text-28 pr-4 text-right"
+                    >DAO Governance &amp; TGE</span
+                  ><img
+                    alt="diamond"
+                    loading="lazy"
+                    width="36"
+                    height="36"
+                    decoding="async"
+                    data-nimg="1"
+                    class="shrink-0 max-sm:-ml-1.5 max-sm:mr-2.5"
+                    style="color: transparent"
+                    src="images/diamond.80028cce.svg"
+                  /><span
+                    class="visible block text-24 font-normal text-text-2 md:invisible md:pl-4 md:text-28 text-left align-middle"
+                    >DAO Governance &amp; TGE</span
+                  >
+                </div>
+                <div class="flex pb-2.5">
+                  <span
+                    class="visible hidden text-24 font-normal text-text-2 md:block md:text-28 md:leading-10 pr-4"
+                    ><div
+                      class="max-w-[900px] pb-2.5 text-right text-14 font-light text-text-3"
+                    >
+                      One of the primary goals for ether.fi from the start has
+                      been for the protocol to outlive us (it’s primary
+                      developers). With a collective governance model, we
+                      believe we’ll leave the protocol open and in the capable
+                      hands of the vested many.
+                    </div>
+                    <div
+                      class="max-w-[900px] text-right text-14 font-light text-text-5"
+                    >
+                      ETA April 2024
+                    </div></span
+                  ><img
+                    alt="diamond"
+                    loading="lazy"
+                    width="6"
+                    height="140"
+                    decoding="async"
+                    data-nimg="1"
+                    class="visible min-h-[140px] max-sm:ml-1"
+                    style="color: transparent"
+                    src="images/vertical-line.95498f93.svg"
+                  /><span
+                    class="visible block pl-4 text-24 font-normal text-text-2 md:invisible md:text-28 md:leading-10"
+                    ><div
+                      class="max-w-[900px] pb-2.5 text-14 font-light text-text-3"
+                    >
+                      One of the primary goals for ether.fi from the start has
+                      been for the protocol to outlive us (it’s primary
+                      developers). With a collective governance model, we
+                      believe we’ll leave the protocol open and in the capable
+                      hands of the vested many.
+                    </div>
+                    <div class="max-w-[900px] text-14 font-light text-text-5">
+                      ETA April 2024
+                    </div></span
+                  >
+                </div>
+              </div>
+            </section>
+            <section>
+              <div
+                class="flex w-[80vw] max-w-[950px] flex-col items-center justify-center gap-[10px] md:w-full"
+              >
+                <div
+                  class="flex w-full items-center justify-start md:justify-center"
+                >
+                  <span
+                    class="invisible hidden text-24 font-normal text-text-2 md:block md:text-28 pr-4 text-right"
+                    >Contracts ossification</span
+                  ><img
+                    alt="diamond"
+                    loading="lazy"
+                    width="36"
+                    height="36"
+                    decoding="async"
+                    data-nimg="1"
+                    class="shrink-0 max-sm:-ml-1.5 max-sm:mr-2.5"
+                    style="color: transparent"
+                    src="images/diamond.80028cce.svg"
+                  /><span
+                    class="visible block text-24 font-normal text-text-2 md:pl-4 md:text-28 text-left align-middle"
+                    >Contracts ossification</span
+                  >
+                </div>
+                <div class="flex pb-2.5">
+                  <span
+                    class="invisible hidden text-24 font-normal text-text-2 md:block md:text-28 md:leading-10 pr-4"
+                    ><div
+                      class="max-w-[900px] pb-2.5 text-right text-14 font-light text-text-3"
+                    >
+                      The natural process of software stability takes time and
+                      iteration. ether.fi is committed to removing upgradability
+                      from our smart contracts, but this process must first run
+                      its course.
+                    </div>
+                    <div
+                      class="max-w-[900px] text-right text-14 font-light text-text-5"
+                    >
+                      TBD
+                    </div></span
+                  ><img
+                    alt="diamond"
+                    loading="lazy"
+                    width="6"
+                    height="140"
+                    decoding="async"
+                    data-nimg="1"
+                    class="hidden min-h-[140px] max-sm:ml-1"
+                    style="color: transparent"
+                    src="images/vertical-line.95498f93.svg"
+                  /><span
+                    class="visible block pl-4 text-24 font-normal text-text-2 md:text-28 md:leading-10"
+                    ><div
+                      class="max-w-[900px] pb-2.5 text-14 font-light text-text-3"
+                    >
+                      The natural process of software stability takes time and
+                      iteration. ether.fi is committed to removing upgradability
+                      from our smart contracts, but this process must first run
+                      its course.
+                    </div>
+                    <div class="max-w-[900px] text-14 font-light text-text-5">
+                      TBD
+                    </div></span
+                  >
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <nav
+        class="container grid grid-cols-1 gap-12 pb-12 pt-24 md:grid-cols-[1fr_auto] lg:pb-24 lg:pt-32"
+      >
+        <div
+          aria-hidden="true"
+          class="relative mx-auto flex h-[48px] w-[140px] items-center justify-center md:mx-0 md:h-[99px] md:w-[287px]"
+        >
+          <img
+            alt="etherfi logo with text"
+            aria-hidden="true"
+            loading="lazy"
+            decoding="async"
+            data-nimg="fill"
+            class="object-contain"
+            style="
+              position: absolute;
+              height: 100%;
+              width: 100%;
+              left: 0;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              color: transparent;
+            "
+            sizes="(max-width: 768px) 30vw, 100vw"
+            srcset="
+              images/footer_logo.webp,
+              images/footer_logo.webp,
+              images/footer_logo.webp,
+              images/footer_logo.webp,
+              images/footer_logo.webp,
+              images/footer_logo.webp,
+              images/footer_logo.webp,
+              images/footer_logo.webp,
+              images/footer_logo.webp,
+              images/footer_logo.webp
+            "
+            src="images/footer_logo.webp"
+          />
+        </div>
+        <div class="flex w-full max-w-[700px] flex-col justify-start gap-y-20">
+          <ul
+            class="grid grid-cols-[auto_auto] gap-4 max-sm:justify-between max-sm:px-8 sm:justify-items-center md:hidden"
+          >
+            <li><a href="/about">About us</a></li>
+            <li>
+              <a
+                target="_blank"
+                rel="noreferrer noopener"
+                href="https://etherfi.gitbook.io/etherfi/faq"
+                >FAQ</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noreferrer noopener"
+                href="https://medium.com/etherfi"
+                >Blog</a
+              >
+            </li>
+            <li><a href="/roadmap">Roadmap</a></li>
+            <li><a href="/solo-staker">Solo Staker</a></li>
+            <li><a href="/institutional">Institutional</a></li>
+            <li><a href="/partners">Partners</a></li>
+            <li>
+              <a
+                target="_blank"
+                rel="noreferrer noopener"
+                href="https://etherfi.gitbook.io/etherfi"
+                >Docs</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noreferrer noopener"
+                href="https://etherfi.gitbook.io/etherfi/"
+                >Gitbook</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noreferrer noopener"
+                href="https://etherfi.gitbook.io/etherfi/ether.fi-whitepaper"
+                >Whitepaper</a
+              >
+            </li>
+          </ul>
+          <div class="hidden grid-cols-3 gap-10 md:grid lg:gap-20">
+            <ul class="flex flex-col gap-4">
+              <li><a href="about.html">About us</a></li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  href="https://etherfi.gitbook.io/etherfi/faq"
+                  >FAQ</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  href="https://medium.com/etherfi"
+                  >Blog</a
+                >
+              </li>
+            </ul>
+            <ul class="flex flex-col gap-4">
+              <li><a href="roadmap.html">Roadmap</a></li>
+              <li><a href="solo-staker.html">Solo Staker</a></li>
+              <li><a href="Institutional.html">Institutional</a></li>
+              <li><a href="partner.html">Partners</a></li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  href="https://etherfi.gitbook.io/etherfi"
+                  >Docs</a
+                >
+              </li>
+            </ul>
+            <ul class="flex flex-col gap-4">
+              <li>
+                <a
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  href="https://etherfi.gitbook.io/etherfi/"
+                  >Gitbook</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  href="https://etherfi.gitbook.io/etherfi/ether.fi-whitepaper"
+                  >Whitepaper</a
+                >
+              </li>
+            </ul>
+          </div>
+          <ul
+            class="flex items-center justify-center gap-x-5 self-center md:flex-row md:self-start"
+          >
+            <li>
+              <a
+                class="flex h-9 w-full max-w-[110px] flex-none items-center justify-center space-x-1 rounded-full bg-white p-2 px-8 text-sm font-medium text-[rgba(25,22,59,1)]"
+                href="https://app.ether.fi"
+                ><img
+                  alt="sparkle"
+                  aria-hidden="true"
+                  loading="lazy"
+                  width="20"
+                  height="20"
+                  decoding="async"
+                  data-nimg="1"
+                  style="color: transparent"
+                  src="images/sparkle.21b2d42e.svg"
+                />App</a
+              >
+            </li>
+            <ul class="flex h-full items-center space-x-3">
+              <li>
+                <a
+                  class="inline-flex flex-shrink-0 items-center justify-center p-1"
+                  href="https://twitter.com/ether_fi"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  ><img
+                    alt="twitter"
+                    loading="lazy"
+                    width="24"
+                    height="25"
+                    decoding="async"
+                    data-nimg="1"
+                    class="m-auto h-6 w-6"
+                    style="color: transparent"
+                    src="images/twitter.e1846f30.svg"
+                /></a>
+              </li>
+              <li>
+                <a
+                  class="inline-flex flex-shrink-0 items-center justify-center p-1"
+                  href="https://discord.com/invite/zqGzcuQWvD"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  ><img
+                    alt="discord"
+                    loading="lazy"
+                    width="24"
+                    height="25"
+                    decoding="async"
+                    data-nimg="1"
+                    class="m-auto h-6 w-6"
+                    style="color: transparent"
+                    src="images/discord.7562bfea.svg"
+                /></a>
+              </li>
+              <li>
+                <a
+                  class="inline-flex flex-shrink-0 items-center justify-center p-1"
+                  href="https://t.me/+C3fpSjmPqzA5NTVh"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  ><img
+                    alt="telegram"
+                    loading="lazy"
+                    width="24"
+                    height="25"
+                    decoding="async"
+                    data-nimg="1"
+                    class="m-auto h-6 w-6"
+                    style="color: transparent"
+                    src="images/telegram.196361cc.svg"
+                /></a>
+              </li>
+              <li>
+                <a
+                  class="inline-flex flex-shrink-0 items-center justify-center p-1"
+                  href="https://github.com/etherfi-protocol"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  ><img
+                    alt="github"
+                    loading="lazy"
+                    width="24"
+                    height="25"
+                    decoding="async"
+                    data-nimg="1"
+                    class="m-auto h-6 w-6"
+                    style="color: transparent"
+                    src="images/github.71fc3293.svg"
+                /></a>
+              </li>
+              <li>
+                <a
+                  class="inline-flex flex-shrink-0 items-center justify-center p-1"
+                  href="https://medium.com/etherfi"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  ><img
+                    alt="medium"
+                    loading="lazy"
+                    width="24"
+                    height="25"
+                    decoding="async"
+                    data-nimg="1"
+                    class="m-auto h-6 w-6"
+                    style="color: transparent"
+                    src="images/medium.de5225c0.svg"
+                /></a>
+              </li>
+            </ul>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <!--$!--><template data-dgst="NEXT_DYNAMIC_NO_SSR_CODE"></template
+    ><!--/$-->
+    <script
+      src="/_next/static/chunks/webpack-a377bd7f2e68f2f2.js"
+      crossorigin=""
+      async=""
+    ></script>
+    <script>
+      (self.__next_f = self.__next_f || []).push([0]);
+      self.__next_f.push([2, null]);
+    </script>
+    <script>
+      self.__next_f.push([
+        1,
+        '1:HL["/_next/static/media/3d9ea938b6afa941-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]\n2:HL["/_next/static/css/45577f4c428da0cd.css","style",{"crossOrigin":""}]\n3:HL["/_next/static/css/eb874a70cebce151.css","style",{"crossOrigin":""}]\n0:"$L4"\n',
+      ]);
+    </script>
+    <script>
+      self.__next_f.push([
+        1,
+        '5:HL["/_next/static/css/a3063c4abfe98110.css","style",{"crossOrigin":""}]\n',
+      ]);
+    </script>
+    <script>
+      self.__next_f.push([
+        1,
+        '6:I{"id":1873,"chunks":["272:static/chunks/webpack-a377bd7f2e68f2f2.js","293:static/chunks/1dd3208c-552d7526daab006a.js","791:static/chunks/791-fee963fe77750fb5.js"],"name":"","async":false}\n8:I{"id":5121,"chunks":["272:static/chunks/webpack-a377bd7f2e68f2f2.js","293:static/chunks/1dd3208c-552d7526daab006a.js","791:static/chunks/791-fee963fe77750fb5.js"],"name":"","async":false}\n9:I{"id":4745,"chunks":["816:static/chunks/816-a295367bd03215de.js","11:static/chunks/11-92863bd34e91abc9.js","185:static/chunks/a',
+      ]);
+    </script>
+    <script>
+      self.__next_f.push([
+        1,
+        'pp/layout-5fadc3ee09b1fd0f.js"],"name":"Providers","async":false}\na:I{"id":7141,"chunks":["816:static/chunks/816-a295367bd03215de.js","11:static/chunks/11-92863bd34e91abc9.js","185:static/chunks/app/layout-5fadc3ee09b1fd0f.js"],"name":"","async":false}\nb:I{"id":266,"chunks":["272:static/chunks/webpack-a377bd7f2e68f2f2.js","293:static/chunks/1dd3208c-552d7526daab006a.js","791:static/chunks/791-fee963fe77750fb5.js"],"name":"","async":false}\nc:I{"id":7598,"chunks":["272:static/chunks/webpack-a377bd7f2e68f2f2.j',
+      ]);
+    </script>
+    <script>
+      self.__next_f.push([
+        1,
+        's","293:static/chunks/1dd3208c-552d7526daab006a.js","791:static/chunks/791-fee963fe77750fb5.js"],"name":"","async":false}\ne:I{"id":6816,"chunks":["816:static/chunks/816-a295367bd03215de.js","943:static/chunks/app/roadmap/page-b7e4a4142a190d1e.js"],"name":"Image","async":false}\nf:I{"id":3011,"chunks":["816:static/chunks/816-a295367bd03215de.js","11:static/chunks/11-92863bd34e91abc9.js","129:static/chunks/129-0a797ad7eeaa4d43.js","672:static/chunks/672-d49709b1c7a7651e.js","8:static/chunks/8-1fcf224a7b684c10.',
+      ]);
+    </script>
+    <script>
+      self.__next_f.push([
+        1,
+        'js","931:static/chunks/app/page-2af191dd63879cae.js"],"name":"","async":false}\n10:I{"id":3912,"chunks":["816:static/chunks/816-a295367bd03215de.js","11:static/chunks/11-92863bd34e91abc9.js","185:static/chunks/app/layout-5fadc3ee09b1fd0f.js"],"name":"Analytics","async":false}\n11:I{"id":8524,"chunks":["816:static/chunks/816-a295367bd03215de.js","11:static/chunks/11-92863bd34e91abc9.js","185:static/chunks/app/layout-5fadc3ee09b1fd0f.js"],"name":"SpeedInsights","async":false}\n12:I{"id":299,"chunks":["816:static',
+      ]);
+    </script>
+    <script>
+      self.__next_f.push([
+        1,
+        '/chunks/816-a295367bd03215de.js","11:static/chunks/11-92863bd34e91abc9.js","185:static/chunks/app/layout-5fadc3ee09b1fd0f.js"],"name":"Mava","async":false}\n',
+      ]);
+    </script>
+    <script>
+      self.__next_f.push([
+        1,
+        '4:[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/45577f4c428da0cd.css","precedence":"next","crossOrigin":""}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/eb874a70cebce151.css","precedence":"next","crossOrigin":""}]],["$","$L6",null,{"buildId":"Gtrq9bnq0VzJhOGMJ70B2","assetPrefix":"","initialCanonicalUrl":"/roadmap","initialTree":["",{"children":["roadmap",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"initialHead":[false,"$L7"],"globalErrorComponent":"$8","children":[null,["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__className_be21a3 bg-purple-gradient-1 relative min-h-[100dvh] text-white","children":["$","$L9",null,{"children":[["$","$La",null,{}],["$","main",null,{"children":["$","$Lb",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","template":["$","$Lc",null,{}],"templateStyles":"$undefined","notFound":["$","div",null,{"className":"flex h-[85vh] flex-col items-center justify-center","children":[["$","h1",null,{"className":"text-[200px] font-bold leading-[220px] md:text-[270px] md:leading-[300px] ","style":{"textShadow":"0px 4px 123px rgba(0, 0, 0, 0.25)","background":"var(--gradients-gradient-1, linear-gradient(86deg, #AF5BF9 10.71%, #557AE9 69.85%))","WebkitTextFillColor":"transparent","backgroundClip":"text"},"children":"404"}],["$","p",null,{"className":"text-24 font-light text-text-3","children":"Page not Found"}]]}],"notFoundStyles":[],"childProp":{"current":["$","$Lb",null,{"parallelRouterKey":"children","segmentPath":["children","roadmap","children"],"loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","template":["$","$Lc",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$Ld",["$","div",null,{"className":"bdgk3p9","style":{"gap":"150px","padding":"30px"},"children":[["$","section",null,{"className":"pt-[100px]","children":["$","div",null,{"className":"flex flex-col items-center justify-center gap-5","children":[["$","h1",null,{"className":"text-center text-16 font-normal text-white xs:text-24 xs:leading-7 lg:text-[38px] lg:leading-[44px] xl:text-[48px] xl:leading-[54px]","children":["Our ",["$","span",null,{"className":"font-medium text-text-4","children":"Roadmap"}]]}],["$","div",null,{"className":"max-w-[570px] text-center text-16 font-light text-text-3","children":"We built ether.fi as a product for ourselves: a way to safely and securely stake our own ETH while retaining control of our keys. We recognized a need for a staking protocol built from first principles with a focus on decentralization and self-custody."}]]}]}],["$","section",null,{"children":["$","div",null,{"children":[["$","section",null,{"children":["$","div",null,{"className":"flex w-[80vw] max-w-[950px] flex-col items-center justify-center gap-[10px] md:w-full","children":[["$","div",null,{"className":"flex w-full items-center justify-start md:justify-center","children":[["$","span",null,{"className":"invisible hidden text-24 font-normal text-text-2 md:block md:text-28 pr-4 text-right","children":"Delegated staking with self-custody of keys"}],["$","$Le",null,{"src":{"src":"/_next/static/media/diamond.80028cce.svg","height":28,"width":27,"blurWidth":0,"blurHeight":0},"height":36,"width":36,"alt":"diamond","className":"shrink-0 max-sm:-ml-1.5 max-sm:mr-2.5"}],["$","span",null,{"className":" visible block text-24 font-normal text-text-2 md:pl-4 md:text-28 text-left align-middle","children":"Delegated staking with self-custody of keys"}]]}],["$","div",null,{"className":"flex pb-2.5","children":[["$","span",null,{"className":"invisible hidden text-24 font-normal text-text-2 md:block md:text-28 md:leading-10 pr-4","children":[["$","div",null,{"className":"max-w-[900px] pb-2.5 text-right text-14 font-light text-text-3","children":"ether.fi’s decentralized application provides a secure path to staking personal ETH in 32 validator increments with a set of secure and proven node operators."}],["$","div",null,{"className":"max-w-[900px] text-right text-14 font-light text-text-5","children":"Completed - June 2023"}]]}],["$","$Le",null,{"src":{"src":"/_next/static/media/vertical-line.95498f93.svg","height":122,"width":4,"blurWidth":0,"blurHeight":0},"height":140,"width":6,"alt":"diamond","className":"visible min-h-[140px] max-sm:ml-1"}],["$","span",null,{"className":"visible block pl-4 text-24 font-normal text-text-2 md:text-28 md:leading-10","children":[["$","div",null,{"className":"max-w-[900px] pb-2.5 text-14 font-light text-text-3","children":"ether.fi’s decentralized application provides a secure path to staking personal ETH in 32 validator increments with a set of secure and proven node operators."}],["$","div",null,{"className":"max-w-[900px] text-14 font-light text-text-5","children":"Completed - June 2023"}]]}]]}]]}]}],["$","section",null,{"children":["$","div",null,{"className":"flex w-[80vw] max-w-[950px] flex-col items-center justify-center gap-[10px] md:w-full","children":[["$","div",null,{"className":"flex w-full items-center justify-start md:justify-center","children":[["$","span",null,{"className":"visible hidden text-24 font-normal text-text-2 md:block md:text-28 pr-4 text-right","children":"Solo node operators integration phase 1"}],["$","$Le",null,{"src":{"src":"/_next/static/media/diamond.80028cce.svg","height":28,"width":27,"blurWidth":0,"blurHeight":0},"height":36,"width":36,"alt":"diamond","className":"shrink-0 max-sm:-ml-1.5 max-sm:mr-2.5"}],["$","span",null,{"className":" visible block text-24 font-normal text-text-2 md:invisible md:pl-4 md:text-28 text-left align-middle","children":"Solo node operators integration phase 1"}]]}],["$","div",null,{"className":"flex pb-2.5","children":[["$","span",null,{"className":"visible hidden text-24 font-normal text-text-2 md:block md:text-28 md:leading-10 pr-4","children":[["$","div",null,{"className":"max-w-[900px] pb-2.5 text-right text-14 font-light text-text-3","children":"ether.fi in conjunction with Obol Labs spun up the first DVT mainnet validator, then leveraged this into mainnet’s first cohort of validators run by a geographically dispersed group of small, independent operators."}],["$","div",null,{"className":"max-w-[900px] text-right text-14 font-light text-text-5","children":"Completed - August 2023"}]]}],["$","$Le",null,{"src":{"src":"/_next/static/media/vertical-line.95498f93.svg","height":122,"width":4,"blurWidth":0,"blurHeight":0},"height":140,"width":6,"alt":"diamond","className":"visible min-h-[140px] max-sm:ml-1"}],["$","span",null,{"className":"visible block pl-4 text-24 font-normal text-text-2 md:invisible md:text-28 md:leading-10","children":[["$","div",null,{"className":"max-w-[900px] pb-2.5 text-14 font-light text-text-3","children":"ether.fi in conjunction with Obol Labs spun up the first DVT mainnet validator, then leveraged this into mainnet’s first cohort of validators run by a geographically dispersed group of small, independent operators."}],["$","div",null,{"className":"max-w-[900px] text-14 font-light text-text-5","children":"Completed - August 2023"}]]}]]}]]}]}],["$","section",null,{"children":["$","div",null,{"className":"flex w-[80vw] max-w-[950px] flex-col items-center justify-center gap-[10px] md:w-full","children":[["$","div",null,{"className":"flex w-full items-center justify-start md:justify-center","children":[["$","span",null,{"className":"invisible hidden text-24 font-normal text-text-2 md:block md:text-28 pr-4 text-right","children":"DVT integration phase 1"}],["$","$Le",null,{"src":{"src":"/_next/static/media/diamond.80028cce.svg","height":28,"width":27,"blurWidth":0,"blurHeight":0},"height":36,"width":36,"alt":"diamond","className":"shrink-0 max-sm:-ml-1.5 max-sm:mr-2.5"}],["$","span",null,{"className":" visible block text-24 font-normal text-text-2 md:pl-4 md:text-28 text-left align-middle","children":"DVT integration phase 1"}]]}],["$","div",null,{"className":"flex pb-2.5","children":[["$","span",null,{"className":"invisible hidden text-24 font-normal text-text-2 md:block md:text-28 md:leading-10 pr-4","children":[["$","div",null,{"className":"max-w-[900px] pb-2.5 text-right text-14 font-light text-text-3","children":"The above proof of concept has been partially automated with eyes on full automation in Phase 2 below."}],["$","div",null,{"className":"max-w-[900px] text-right text-14 font-light text-text-5","children":"Completed - August 2023"}]]}],["$","$Le",null,{"src":{"src":"/_next/static/media/vertical-line.95498f93.svg","height":122,"width":4,"blurWidth":0,"blurHeight":0},"height":140,"width":6,"alt":"diamond","className":"visible min-h-[140px] max-sm:ml-1"}],["$","span",null,{"className":"visible block pl-4 text-24 font-normal text-text-2 md:text-28 md:leading-10","children":[["$","div",null,{"className":"max-w-[900px] pb-2.5 text-14 font-light text-text-3","children":"The above proof of concept has been partially automated with eyes on full automation in Phase 2 below."}],["$","div",null,{"className":"max-w-[900px] text-14 font-light text-text-5","children":"Completed - August 2023"}]]}]]}]]}]}],["$","section",null,{"children":["$","div",null,{"className":"flex w-[80vw] max-w-[950px] flex-col items-center justify-center gap-[10px] md:w-full","children":[["$","div",null,{"className":"flex w-full items-center justify-start md:justify-center","children":[["$","span",null,{"className":"visible hidden text-24 font-normal text-text-2 md:block md:text-28 pr-4 text-right","children":"Open source smart contracts"}],["$","$Le",null,{"src":{"src":"/_next/static/media/diamond.80028cce.svg","height":28,"width":27,"blurWidth":0,"blurHeight":0},"height":36,"width":36,"alt":"diamond","className":"shrink-0 max-sm:-ml-1.5 max-sm:mr-2.5"}],["$","span",null,{"className":" visible block text-24 font-normal text-text-2 md:invisible md:pl-4 md:text-28 text-left align-middle","children":"Open source smart contracts"}]]}],["$","div",null,{"className":"flex pb-2.5","children":[["$","span",null,{"className":"visible hidden text-24 font-normal text-text-2 md:block md:text-28 md:leading-10 pr-4","children":[["$","div",null,{"className":"max-w-[900px] pb-2.5 text-right text-14 font-light text-text-3","children":"As a further commitment to our belief in the Ethereum ecosystem, we’ve officially open sourced our suite of smart contracts.  We believe this will improve trust, quality, reliability, and security in our protocol."}],["$","div",null,{"className":"max-w-[900px] text-right text-14 font-light text-text-5","children":"Completed - October 2023"}]]}],["$","$Le",null,{"src":{"src":"/_next/static/media/vertical-line.95498f93.svg","height":122,"width":4,"blurWidth":0,"blurHeight":0},"height":140,"width":6,"alt":"diamond","className":"visible min-h-[140px] max-sm:ml-1"}],["$","span",null,{"className":"visible block pl-4 text-24 font-normal text-text-2 md:invisible md:text-28 md:leading-10","children":[["$","div",null,{"className":"max-w-[900px] pb-2.5 text-14 font-light text-text-3","children":"As a further commitment to our belief in the Ethereum ecosystem, we’ve officially open sourced our suite of smart contracts.  We believe this will improve trust, quality, reliability, and security in our protocol."}],["$","div",null,{"className":"max-w-[900px] text-14 font-light text-text-5","children":"Completed - October 2023"}]]}]]}]]}]}],["$","section",null,{"children":["$","div",null,{"className":"flex w-[80vw] max-w-[950px] flex-col items-center justify-center gap-[10px] md:w-full","children":[["$","div",null,{"className":"flex w-full items-center justify-start md:justify-center","children":[["$","span",null,{"className":"invisible hidden text-24 font-normal text-text-2 md:block md:text-28 pr-4 text-right","children":"eETH launch with permissionless minting and redemptions"}],["$","$Le",null,{"src":{"src":"/_next/static/media/diamond.80028cce.svg","height":28,"width":27,"blurWidth":0,"blurHeight":0},"height":36,"width":36,"alt":"diamond","className":"shrink-0 max-sm:-ml-1.5 max-sm:mr-2.5"}],["$","span",null,{"className":" visible block text-24 font-normal text-text-2 md:pl-4 md:text-28 text-left align-middle","children":"eETH launch with permissionless minting and redemptions"}]]}],["$","div",null,{"className":"flex pb-2.5","children":[["$","span",null,{"className":"invisible hidden text-24 font-normal text-text-2 md:block md:text-28 md:leading-10 pr-4","children":[["$","div",null,{"className":"max-w-[900px] pb-2.5 text-right text-14 font-light text-text-3","children":"eETH is ether.fi’s Liquid Staking Token launching within a month.  With it, users will be able to participate in Ethereum staking in a fully permissionless manner, buying and selling staked assets on demand."}],["$","div",null,{"className":"max-w-[900px] text-right text-14 font-light text-text-5","children":"Completed - November 2023"}]]}],["$","$Le",null,{"src":{"src":"/_next/static/media/vertical-line.95498f93.svg","height":122,"width":4,"blurWidth":0,"blurHeight":0},"height":140,"width":6,"alt":"diamond","className":"visible min-h-[140px] max-sm:ml-1"}],["$","span",null,{"className":"visible block pl-4 text-24 font-normal text-text-2 md:text-28 md:leading-10","children":[["$","div",null,{"className":"max-w-[900px] pb-2.5 text-14 font-light text-text-3","children":"eETH is ether.fi’s Liquid Staking Token launching within a month.  With it, users will be able to participate in Ethereum staking in a fully permissionless manner, buying and selling staked assets on demand."}],["$","div",null,{"className":"max-w-[900px] text-14 font-light text-text-5","children":"Completed - November 2023"}]]}]]}]]}]}],["$","section",null,{"children":["$","div",null,{"className":"flex w-[80vw] max-w-[950px] flex-col items-center justify-center gap-[10px] md:w-full","children":[["$","div",null,{"className":"flex w-full items-center justify-start md:justify-center","children":[["$","span",null,{"className":"visible hidden text-24 font-normal text-text-2 md:block md:text-28 pr-4 text-right","children":"Open source everything"}],["$","$Le",null,{"src":{"src":"/_next/static/media/diamond.80028cce.svg","height":28,"width":27,"blurWidth":0,"blurHeight":0},"height":36,"width":36,"alt":"diamond","className":"shrink-0 max-sm:-ml-1.5 max-sm:mr-2.5"}],["$","span",null,{"className":" visible block text-24 font-normal text-text-2 md:invisible md:pl-4 md:text-28 text-left align-middle","children":"Open source everything"}]]}],["$","div",null,{"className":"flex pb-2.5","children":[["$","span",null,{"className":"visible hidden text-24 font-normal text-text-2 md:block md:text-28 md:leading-10 pr-4","children":[["$","div",null,{"className":"max-w-[900px] pb-2.5 text-right text-14 font-light text-text-3","children":"As a further demonstration of our belief in the power of free and open, we’ll continue making our software services and code public.  We hope to drive others in the ecosystem to do the same."}],["$","div",null,{"className":"max-w-[900px] text-right text-14 font-light text-text-5","children":"ETA Feb 2024"}]]}],["$","$Le",null,{"src":{"src":"/_next/static/media/vertical-line.95498f93.svg","height":122,"width":4,"blurWidth":0,"blurHeight":0},"height":140,"width":6,"alt":"diamond","className":"visible min-h-[140px] max-sm:ml-1"}],["$","span",null,{"className":"visible block pl-4 text-24 font-normal text-text-2 md:invisible md:text-28 md:leading-10","children":[["$","div",null,{"className":"max-w-[900px] pb-2.5 text-14 font-light text-text-3","children":"As a further demonstration of our belief in the power of free and open, we’ll continue making our software services and code public.  We hope to drive others in the ecosystem to do the same."}],["$","div",null,{"className":"max-w-[900px] text-14 font-light text-text-5","children":"ETA Feb 2024"}]]}]]}]]}]}],["$","section",null,{"children":["$","div",null,{"className":"flex w-[80vw] max-w-[950px] flex-col items-center justify-center gap-[10px] md:w-full","children":[["$","div",null,{"className":"flex w-full items-center justify-start md:justify-center","children":[["$","span",null,{"className":"invisible hidden text-24 font-normal text-text-2 md:block md:text-28 pr-4 text-right","children":"DVT integration phase 2, permissionless solo staking"}],["$","$Le",null,{"src":{"src":"/_next/static/media/diamond.80028cce.svg","height":28,"width":27,"blurWidth":0,"blurHeight":0},"height":36,"width":36,"alt":"diamond","className":"shrink-0 max-sm:-ml-1.5 max-sm:mr-2.5"}],["$","span",null,{"className":" visible block text-24 font-normal text-text-2 md:pl-4 md:text-28 text-left align-middle","children":"DVT integration phase 2, permissionless solo staking"}]]}],["$","div",null,{"className":"flex pb-2.5","children":[["$","span",null,{"className":"invisible hidden text-24 font-normal text-text-2 md:block md:text-28 md:leading-10 pr-4","children":[["$","div",null,{"className":"max-w-[900px] pb-2.5 text-right text-14 font-light text-text-3","children":"In DVT Phase 1 and working with our partners at Obol Labs, we delivered secure mainnet DVT - validation shared by disparate individuals, none of whom held entire validator keys.  This second phase will move toward a fully automated integration.  Users will arrive, apply, and begin acting as solo stakers free and clear of ether.fi and Obol’s management and assistance."}],["$","div",null,{"className":"max-w-[900px] text-right text-14 font-light text-text-5","children":"ETA April 2024"}]]}],["$","$Le",null,{"src":{"src":"/_next/static/media/vertical-line.95498f93.svg","height":122,"width":4,"blurWidth":0,"blurHeight":0},"height":140,"width":6,"alt":"diamond","className":"visible min-h-[140px] max-sm:ml-1"}],["$","span",null,{"className":"visible block pl-4 text-24 font-normal text-text-2 md:text-28 md:leading-10","children":[["$","div",null,{"className":"max-w-[900px] pb-2.5 text-14 font-light text-text-3","children":"In DVT Phase 1 and working with our partners at Obol Labs, we delivered secure mainnet DVT - validation shared by disparate individuals, none of whom held entire validator keys.  This second phase will move toward a fully automated integration.  Users will arrive, apply, and begin acting as solo stakers free and clear of ether.fi and Obol’s management and assistance."}],["$","div",null,{"className":"max-w-[900px] text-14 font-light text-text-5","children":"ETA April 2024"}]]}]]}]]}]}],["$","section",null,{"children":["$","div",null,{"className":"flex w-[80vw] max-w-[950px] flex-col items-center justify-center gap-[10px] md:w-full","children":[["$","div",null,{"className":"flex w-full items-center justify-start md:justify-center","children":[["$","span",null,{"className":"visible hidden text-24 font-normal text-text-2 md:block md:text-28 pr-4 text-right","children":"DAO Governance \u0026 TGE"}],["$","$Le",null,{"src":{"src":"/_next/static/media/diamond.80028cce.svg","height":28,"width":27,"blurWidth":0,"blurHeight":0},"height":36,"width":36,"alt":"diamond","className":"shrink-0 max-sm:-ml-1.5 max-sm:mr-2.5"}],["$","span",null,{"className":" visible block text-24 font-normal text-text-2 md:invisible md:pl-4 md:text-28 text-left align-middle","children":"DAO Governance \u0026 TGE"}]]}],["$","div",null,{"className":"flex pb-2.5","children":[["$","span",null,{"className":"visible hidden text-24 font-normal text-text-2 md:block md:text-28 md:leading-10 pr-4","children":[["$","div",null,{"className":"max-w-[900px] pb-2.5 text-right text-14 font-light text-text-3","children":"One of the primary goals for ether.fi from the start has been for the protocol to outlive us (it’s primary developers).  With a collective governance model, we believe we’ll leave the protocol open and in the capable hands of the vested many."}],["$","div",null,{"className":"max-w-[900px] text-right text-14 font-light text-text-5","children":"ETA April 2024"}]]}],["$","$Le",null,{"src":{"src":"/_next/static/media/vertical-line.95498f93.svg","height":122,"width":4,"blurWidth":0,"blurHeight":0},"height":140,"width":6,"alt":"diamond","className":"visible min-h-[140px] max-sm:ml-1"}],["$","span",null,{"className":"visible block pl-4 text-24 font-normal text-text-2 md:invisible md:text-28 md:leading-10","children":[["$","div",null,{"className":"max-w-[900px] pb-2.5 text-14 font-light text-text-3","children":"One of the primary goals for ether.fi from the start has been for the protocol to outlive us (it’s primary developers).  With a collective governance model, we believe we’ll leave the protocol open and in the capable hands of the vested many."}],["$","div",null,{"className":"max-w-[900px] text-14 font-light text-text-5","children":"ETA April 2024"}]]}]]}]]}]}],["$","section",null,{"children":["$","div",null,{"className":"flex w-[80vw] max-w-[950px] flex-col items-center justify-center gap-[10px] md:w-full","children":[["$","div",null,{"className":"flex w-full items-center justify-start md:justify-center","children":[["$","span",null,{"className":"invisible hidden text-24 font-normal text-text-2 md:block md:text-28 pr-4 text-right","children":"Contracts ossification"}],["$","$Le",null,{"src":{"src":"/_next/static/media/diamond.80028cce.svg","height":28,"width":27,"blurWidth":0,"blurHeight":0},"height":36,"width":36,"alt":"diamond","className":"shrink-0 max-sm:-ml-1.5 max-sm:mr-2.5"}],["$","span",null,{"className":" visible block text-24 font-normal text-text-2 md:pl-4 md:text-28 text-left align-middle","children":"Contracts ossification"}]]}],["$","div",null,{"className":"flex pb-2.5","children":[["$","span",null,{"className":"invisible hidden text-24 font-normal text-text-2 md:block md:text-28 md:leading-10 pr-4","children":[["$","div",null,{"className":"max-w-[900px] pb-2.5 text-right text-14 font-light text-text-3","children":"The natural process of software stability takes time and iteration.  ether.fi is committed to removing upgradability from our smart contracts, but this process must first run its course."}],["$","div",null,{"className":"max-w-[900px] text-right text-14 font-light text-text-5","children":"TBD"}]]}],["$","$Le",null,{"src":{"src":"/_next/static/media/vertical-line.95498f93.svg","height":122,"width":4,"blurWidth":0,"blurHeight":0},"height":140,"width":6,"alt":"diamond","className":"hidden min-h-[140px] max-sm:ml-1"}],["$","span",null,{"className":"visible block pl-4 text-24 font-normal text-text-2 md:text-28 md:leading-10","children":[["$","div",null,{"className":"max-w-[900px] pb-2.5 text-14 font-light text-text-3","children":"The natural process of software stability takes time and iteration.  ether.fi is committed to removing upgradability from our smart contracts, but this process must first run its course."}],["$","div",null,{"className":"max-w-[900px] text-14 font-light text-text-5","children":"TBD"}]]}]]}]]}]}]]}]}]]}],null],"segment":"__PAGE__"},"styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a3063c4abfe98110.css","precedence":"next","crossOrigin":""}]]}],"segment":"roadmap"},"styles":[]}]}],["$","footer",null,{"children":["$","nav",null,{"className":"container grid grid-cols-1 gap-12 pb-12 pt-24 md:grid-cols-[1fr_auto] lg:pb-24 lg:pt-32","children":[["$","div",null,{"aria-hidden":true,"className":"relative mx-auto flex h-[48px] w-[140px] items-center justify-center md:mx-0 md:h-[99px] md:w-[287px]","children":["$","$Le",null,{"alt":"etherfi logo with text","aria-hidden":true,"src":{"src":"/_next/static/media/footer_logo.e4314aa2.webp","height":198,"width":575,"blurDataURL":"data:image/webp;base64,UklGRngAAABXRUJQVlA4WAoAAAAQAAAABwAAAgAAQUxQSBkAAAAAJAAABgAACAxCJGyAaGZKMjcFDA4JDBAFAFZQOCA4AAAAkAEAnQEqCAADAAJAOCWcAALnT+RgAP7248xM1vmSpYb5eGFryCjQ/O1RuJ2MInQelhkalhcAAAA=","blurWidth":8,"blurHeight":3},"fill":true,"sizes":"(max-width: 768px) 30vw, 100vw","className":"object-contain"}]}],["$","div",null,{"className":"flex w-full max-w-[700px] flex-col justify-start gap-y-20","children":[["$","ul",null,{"className":"grid grid-cols-[auto_auto] gap-4 max-sm:justify-between max-sm:px-8 sm:justify-items-center md:hidden","children":[["$","li","/about",{"children":["$","$Lf",null,{"href":"/about","target":"$undefined","rel":"$undefined","children":"About us"}]}],["$","li","https://etherfi.gitbook.io/etherfi/faq",{"children":["$","$Lf",null,{"href":"https://etherfi.gitbook.io/etherfi/faq","target":"_blank","rel":"noreferrer noopener","children":"FAQ"}]}],["$","li","https://medium.com/etherfi",{"children":["$","$Lf",null,{"href":"https://medium.com/etherfi","target":"_blank","rel":"noreferrer noopener","children":"Blog"}]}],["$","li","/roadmap",{"children":["$","$Lf",null,{"href":"/roadmap","target":"$undefined","rel":"$undefined","children":"Roadmap"}]}],["$","li","/solo-staker",{"children":["$","$Lf",null,{"href":"/solo-staker","target":"$undefined","rel":"$undefined","children":"Solo Staker"}]}],["$","li","/institutional",{"children":["$","$Lf",null,{"href":"/institutional","target":"$undefined","rel":"$undefined","children":"Institutional"}]}],["$","li","/partners",{"children":["$","$Lf",null,{"href":"/partners","target":"$undefined","rel":"$undefined","children":"Partners"}]}],["$","li","https://etherfi.gitbook.io/etherfi",{"children":["$","$Lf",null,{"href":"https://etherfi.gitbook.io/etherfi","target":"_blank","rel":"noreferrer noopener","children":"Docs"}]}],["$","li","https://etherfi.gitbook.io/etherfi/",{"children":["$","$Lf",null,{"href":"https://etherfi.gitbook.io/etherfi/","target":"_blank","rel":"noreferrer noopener","children":"Gitbook"}]}],["$","li","https://etherfi.gitbook.io/etherfi/ether.fi-whitepaper",{"children":["$","$Lf",null,{"href":"https://etherfi.gitbook.io/etherfi/ether.fi-whitepaper","target":"_blank","rel":"noreferrer noopener","children":"Whitepaper"}]}]]}],["$","div",null,{"className":"hidden grid-cols-3 gap-10 md:grid lg:gap-20","children":[["$","ul",null,{"className":"flex flex-col gap-4","children":[["$","li","/about",{"children":["$","$Lf",null,{"href":"/about","target":"$undefined","rel":"$undefined","children":"About us"}]}],["$","li","https://etherfi.gitbook.io/etherfi/faq",{"children":["$","$Lf",null,{"href":"https://etherfi.gitbook.io/etherfi/faq","target":"_blank","rel":"noreferrer noopener","children":"FAQ"}]}],["$","li","https://medium.com/etherfi",{"children":["$","$Lf",null,{"href":"https://medium.com/etherfi","target":"_blank","rel":"noreferrer noopener","children":"Blog"}]}]]}],["$","ul",null,{"className":"flex flex-col gap-4","children":[["$","li","/roadmap",{"children":["$","$Lf",null,{"href":"/roadmap","target":"$undefined","rel":"$undefined","children":"Roadmap"}]}],["$","li","/solo-staker",{"children":["$","$Lf",null,{"href":"/solo-staker","target":"$undefined","rel":"$undefined","children":"Solo Staker"}]}],["$","li","/institutional",{"children":["$","$Lf",null,{"href":"/institutional","target":"$undefined","rel":"$undefined","children":"Institutional"}]}],["$","li","/partners",{"children":["$","$Lf",null,{"href":"/partners","target":"$undefined","rel":"$undefined","children":"Partners"}]}],["$","li","https://etherfi.gitbook.io/etherfi",{"children":["$","$Lf",null,{"href":"https://etherfi.gitbook.io/etherfi","target":"_blank","rel":"noreferrer noopener","children":"Docs"}]}]]}],["$","ul",null,{"className":"flex flex-col gap-4","children":[["$","li","https://etherfi.gitbook.io/etherfi/",{"children":["$","$Lf",null,{"href":"https://etherfi.gitbook.io/etherfi/","target":"_blank","rel":"noreferrer noopener","children":"Gitbook"}]}],["$","li","https://etherfi.gitbook.io/etherfi/ether.fi-whitepaper",{"children":["$","$Lf",null,{"href":"https://etherfi.gitbook.io/etherfi/ether.fi-whitepaper","target":"_blank","rel":"noreferrer noopener","children":"Whitepaper"}]}]]}]]}],["$","ul",null,{"className":"flex items-center justify-center gap-x-5 self-center md:flex-row md:self-start","children":[["$","li",null,{"children":["$","$Lf",null,{"href":"https://app.ether.fi","className":"flex h-9 w-full max-w-[110px] flex-none items-center justify-center space-x-1 rounded-full bg-white p-2 px-8 text-sm font-medium text-[rgba(25,22,59,1)]","children":[["$","$Le",null,{"src":{"src":"/_next/static/media/sparkle.21b2d42e.svg","height":20,"width":20,"blurWidth":0,"blurHeight":0},"alt":"sparkle","aria-hidden":true}],"App"]}]}],["$","ul",null,{"className":"flex h-full items-center space-x-3","children":[["$","li",null,{"children":["$","a",null,{"className":"inline-flex flex-shrink-0 items-center justify-center p-1","href":"https://twitter.com/ether_fi","target":"_blank","rel":"noreferrer noopener","children":["$","$Le",null,{"className":"m-auto h-6 w-6","src":{"src":"/_next/static/media/twitter.e1846f30.svg","height":25,"width":24,"blurWidth":0,"blurHeight":0},"alt":"twitter"}]}]}],["$","li",null,{"children":["$","a",null,{"className":"inline-flex flex-shrink-0 items-center justify-center p-1","href":"https://discord.com/invite/zqGzcuQWvD","target":"_blank","rel":"noreferrer noopener","children":["$","$Le",null,{"className":"m-auto h-6 w-6","src":{"src":"/_next/static/media/discord.7562bfea.svg","height":25,"width":24,"blurWidth":0,"blurHeight":0},"alt":"discord"}]}]}],["$","li",null,{"children":["$","a",null,{"className":"inline-flex flex-shrink-0 items-center justify-center p-1","href":"https://t.me/+C3fpSjmPqzA5NTVh","target":"_blank","rel":"noreferrer noopener","children":["$","$Le",null,{"className":"m-auto h-6 w-6","src":{"src":"/_next/static/media/telegram.196361cc.svg","height":25,"width":24,"blurWidth":0,"blurHeight":0},"alt":"telegram"}]}]}],["$","li",null,{"children":["$","a",null,{"className":"inline-flex flex-shrink-0 items-center justify-center p-1","href":"https://github.com/etherfi-protocol","target":"_blank","rel":"noreferrer noopener","children":["$","$Le",null,{"className":"m-auto h-6 w-6","src":{"src":"/_next/static/media/github.71fc3293.svg","height":25,"width":24,"blurWidth":0,"blurHeight":0},"alt":"github"}]}]}],["$","li",null,{"children":["$","a",null,{"className":"inline-flex flex-shrink-0 items-center justify-center p-1","href":"https://medium.com/etherfi","target":"_blank","rel":"noreferrer noopener","children":["$","$Le",null,{"className":"m-auto h-6 w-6","src":{"src":"/_next/static/media/medium.de5225c0.svg","height":25,"width":24,"blurWidth":0,"blurHeight":0},"alt":"medium"}]}]}]]}]]}]]}]]}]}],["$","$L10",null,{}],["$","$L11",null,{}],["$","$L12",null,{}]]}]}]}],null]}]]\n',
+      ]);
+    </script>
+    <script>
+      self.__next_f.push([
+        1,
+        '7:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Etherfi"}],["$","meta","2",{"name":"description","content":"Delegated Staking Protocol"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","4",{"name":"robots","content":"follow, index"}],["$","meta","5",{"property":"og:title","content":"ether.fi"}],["$","meta","6",{"property":"og:description","content":"Delegated Staking Protocol"}],["$","meta","7",{"property":"og:image","content":"https://gadzefinance.github.io/Image-Hosting/Etherfi-Logo-Opengraph.png"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","10",{"name":"twitter:site","content":"@ether_fi"}],["$","meta","11",{"name":"twitter:title","content":"ether.fi"}],["$","meta","12",{"name":"twitter:description","content":"Delegated Staking Protocol"}],["$","meta","13",{"name":"twitter:image","content":"https://gadzefinance.github.io/Image-Hosting/Etherfi-Logo-Opengraph.png"}],["$","link","14",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}],["$","meta","15",{"name":"next-size-adjust"}]]\n',
+      ]);
+    </script>
+    <script>
+      self.__next_f.push([1, "d:null\n"]);
+    </script>
+  </body>
+</html>
